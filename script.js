@@ -19,7 +19,7 @@ async function obterCasa(){
         //faz uma busca por hermione granger nos personagens da API 
         const hermione = dados.find(personagem => personagem.name ==='Hermione Granger')
    
-
+        //implementar retorno da api ao clicar no botão
         //exibe a casa da Hermione 
         const elementoHouse = document.getElementById('house');
         if (hermione) {
